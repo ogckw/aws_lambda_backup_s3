@@ -89,5 +89,5 @@ ENV/
 .ropeproject
 
 # pycharm
-.idea/
+/.idea
 
