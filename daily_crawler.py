@@ -4,7 +4,7 @@ import os
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
-
+import jieba
 import json
 import urllib
 import boto3
