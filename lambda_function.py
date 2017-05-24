@@ -21,7 +21,7 @@ def lambda_handler(event, context):
         response = s3.get_object(Bucket=bucket, Key=key)
         print (response)
         print ("CONTENT TYPE: " + response['ContentType'])
-        s3.put_object(Body=response['Body'].read(),Bucket='lambdabkt-testsave123',Key=key+'123')
+        s3.put_object(Body=response['Body'].read(), Bucket='lambdabkt-testsave123',Key=key+'123')
         return response['ContentType']
     except Exception as e:
         print(e)
