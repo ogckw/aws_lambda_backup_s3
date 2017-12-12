@@ -22,7 +22,7 @@ pip install module-name -t /path/to/project-dir
 
 (if need compile by c or c++ , please use aws linux image compile.
 
-  Do not use windows library upload, see [Reference](#Reference))
+  Do not use windows library upload, see [Reference](#reference))
   
 ## Description
 ![lambda architecture](lambda_file_processing.png)
