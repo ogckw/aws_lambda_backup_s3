@@ -44,7 +44,7 @@ pip install module-name -t /path/to/project-dir
 
 (if need compile by C or C++ , please use AWS Linux image compile.
 
-  Do not use Windows library upload, see [Reference](#Reference))
+  Do not use Windows library upload, see [Reference](#reference))
   
 ## Description
 Detect every 5 minute's top 5 news category
