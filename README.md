@@ -3,9 +3,9 @@
 
 
 # 繁體中文說明
-[Demo1](#demo1-透過aws-lambda-備份S3資料-(在此原始碼根目錄)) 透過AWS Lambda 備份S3資料
+[Demo1](#demo1-透過aws-lambda-備份S3資料-在此原始碼根目錄) 透過AWS Lambda 備份S3資料
 
-[Demo2](#demo2-改變上傳的圖片大小及如何使用套件-(在此目錄底下的resize_image資料夾)) 改變上傳的圖片大小及如何使用套件
+[Demo2](#demo2-改變上傳的圖片大小及如何使用套件-在此目錄底下的resize_image資料夾) 改變上傳的圖片大小及如何使用套件
 
 ## Demo1 透過AWS Lambda 備份S3資料 (在此原始碼根目錄)
 透過AWS Lambda來備份S3檔案
@@ -53,9 +53,9 @@ Python 版本: 3.6
 
 # English Guide
 
-[Demo1](#demo1-backup-s3-by-aws-lambda-(root-directory)) Backup S3 by AWS Lambda
+[Demo1](#demo1-backup-s3-by-aws-lambda-root-directory) Backup S3 by AWS Lambda
 
-[Demo2](#demo2-resize-image-and-how-to-deploy-new-module-(resize_image))  Resize Image and How to Deploy New Module
+[Demo2](#demo2-resize-image-and-how-to-deploy-new-module-resize_image)  Resize Image and How to Deploy New Module
 
 
 ## Demo1 Backup S3 by AWS Lambda (root directory)
