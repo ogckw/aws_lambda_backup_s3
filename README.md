@@ -1,5 +1,5 @@
 # AWS Lambda Lab
-## [繁體中文說明](#繁體中文) [English Guide](#english)
+## [繁體中文說明](#繁體中文說明) [English Guide](#english-guide)
 
 
 # 繁體中文說明
