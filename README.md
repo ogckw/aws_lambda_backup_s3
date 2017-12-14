@@ -3,9 +3,9 @@
 
 
 # 繁體中文說明
-[Demo1](#demo1-透過aws-lambda-備份S3資料-在此原始碼根目錄) 透過AWS Lambda 備份S3資料
+[Demo1](#demo1-%E9%80%8F%E9%81%8Eaws-lambda-%E5%82%99%E4%BB%BDs3%E8%B3%87%E6%96%99-%E5%9C%A8%E6%AD%A4%E5%8E%9F%E5%A7%8B%E7%A2%BC%E6%A0%B9%E7%9B%AE%E9%8C%84) 透過AWS Lambda 備份S3資料
 
-[Demo2](#demo2-改變上傳的圖片大小及如何使用套件-在此目錄底下的resize_image資料夾) 改變上傳的圖片大小及如何使用套件
+[Demo2](#demo2-%E6%94%B9%E8%AE%8A%E4%B8%8A%E5%82%B3%E7%9A%84%E5%9C%96%E7%89%87%E5%A4%A7%E5%B0%8F%E5%8F%8A%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E5%A5%97%E4%BB%B6-%E5%9C%A8%E6%AD%A4%E7%9B%AE%E9%8C%84%E5%BA%95%E4%B8%8B%E7%9A%84resize_image%E8%B3%87%E6%96%99%E5%A4%BE) 改變上傳的圖片大小及如何使用套件
 
 ## Demo1 透過AWS Lambda 備份S3資料 (在此原始碼根目錄)
 透過AWS Lambda來備份S3檔案
@@ -25,7 +25,7 @@ Python 版本: 2.7
 3. AWS IAM Role: 分配AWS Lambda程式的權限能操作S3所有資源並有基本執行Lambda服務的權限
 
 
-## Demo2  改變上傳的圖片大小及如何使用套件 (在此目錄底下的resize_image資料夾)
+## Demo2 改變上傳的圖片大小及如何使用套件 (在此目錄底下的resize_image資料夾)
 
 透過AWS Lambda改變圖片大小
 
