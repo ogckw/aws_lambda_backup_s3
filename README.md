@@ -43,6 +43,9 @@ Python 版本: 3.6
 ![lambda architecture](lambda_file_processing.png)
 使用AWS Lambda 轉換圖片成不同大小的圖片提供給各個裝置使用，建議使用AWS有Admin權限的帳號來操作
 
+記得將resize_image底下的lambda_function.py中的
+`SOURCE_BUCKET` 以及`RESIZE_BUCKET` 後的變數改成對應的S3 Bucket名稱
+
 使用的AWS服務:
 1. AWS Lambda: 轉換圖片成不同大小的圖片
 
@@ -97,6 +100,10 @@ How to deploy new module
 ![lambda architecture](lambda_file_processing.png)
 Use AWS Lambda convert image to different size for multiple devices.
 Please use AWS Admin account manipulate the tutorial
+
+Please modify lambda_function.py content 
+(`SOURCE_BUCKET` and `RESIZE_BUCKET` varible to correct S3 bucket name) 
+in resize_image folder
 
 Use AWS service:
 1. AWS Lambda: convert image from large to small
