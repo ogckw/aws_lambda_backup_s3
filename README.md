@@ -15,7 +15,7 @@ Python 版本: 2.7
 範例程式將會透過放資料到S3上來驅動AWS Lambda執行，建議使用AWS有Admin權限的帳號來操作
 
 工作流程如下:
-上傳檔案 -> s3 bucket 1號 -> 驅動Lambda -> 複製檔案 -> 放到s3 bucket2號
+上傳檔案 -> S3 bucket 1號 -> 驅動Lambda -> 複製檔案 -> 放到S3 bucket2號
 
 使用的AWS服務:
 1. AWS Lambda: 複製S3的檔案到另一個bucket中
@@ -69,14 +69,14 @@ Please use AWS Admin account manipulate the tutorial
 
 The workflow see below:
 
-upload file -> s3 bucket1 -> trigger Lambda -> copy object -> s3 bucket2
+upload file -> S3 bucket1 -> trigger Lambda -> copy object -> S3 bucket2
 
 Use AWS service:
-1. AWS Lambda: copy s3 object to the other bucket
+1. AWS Lambda: copy S3 object to the other bucket
 
 2. AWS S3: save input data, output data and trigger AWS Lambda
 
-3. AWS IAM Role: assign AWS Lambda to full access s3 and basic execution
+3. AWS IAM Role: assign AWS Lambda to full access S3 and basic execution
 
 
 ## Demo2 Resize Image and How to Deploy New Module (resize_image)
@@ -89,7 +89,7 @@ How to deploy new module
 
 `pip install module-name -t /path/to/project-dir`
 
-(if need compile by c or c++ , please use aws linux image compile.
+(if need compile by C or C++ , please use AWS Linux image compile.
 
   Do not use windows library upload, see [Reference](#reference))
   
@@ -103,11 +103,11 @@ Use AWS service:
 
 2. AWS S3: save input data, output data and trigger AWS Lambda
 
-3. AWS IAM Role: assign AWS Lambda to full access s3 and basic execution
+3. AWS IAM Role: assign AWS Lambda to full access S3 and basic execution
 
 # Reference
 - Tutorial by Node.js
 http://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html
 
-- Python or Node.js module compile OS version
+- Compile OS version for Python or Node.js
 http://docs.aws.amazon.com/lambda/latest/dg/current-supported-versions.html
