@@ -12,7 +12,7 @@
 
 Python 版本: 2.7
 ### 說明
-範例程式將會透過放資料到S3上來驅動AWS Lambda執行
+範例程式將會透過放資料到S3上來驅動AWS Lambda執行，建議使用AWS有Admin權限的帳號來操作
 
 工作流程如下:
 上傳檔案 -> s3 bucket 1號 -> 驅動Lambda -> 複製檔案 -> 放到s3 bucket2號
@@ -41,7 +41,7 @@ Python 版本: 3.6
 ### 說明
 
 ![lambda architecture](lambda_file_processing.png)
-使用AWS Lambda 轉換圖片成不同大小的圖片提供給各個裝置使用
+使用AWS Lambda 轉換圖片成不同大小的圖片提供給各個裝置使用，建議使用AWS有Admin權限的帳號來操作
 
 使用的AWS服務:
 1. AWS Lambda: 轉換圖片成不同大小的圖片
@@ -65,6 +65,7 @@ Python version: 2.7
 ### Description
 
 This sample code will demo how to trigger AWS Lambda by putting object to AWS S3.
+Please use AWS Admin account manipulate the tutorial
 
 The workflow see below:
 
@@ -95,6 +96,7 @@ How to deploy new module
 ### Description
 ![lambda architecture](lambda_file_processing.png)
 Use AWS Lambda convert image to different size for multiple devices.
+Please use AWS Admin account manipulate the tutorial
 
 Use AWS service:
 1. AWS Lambda: convert image from large to small
