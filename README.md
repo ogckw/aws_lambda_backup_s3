@@ -50,6 +50,8 @@ Python 版本: 3.6
 
 3. AWS IAM Role: 分配AWS Lambda程式的權限能操作S3所有資源並有基本執行Lambda服務的權限
 
+如何打包套件:
+![pack](packpackage.png)
 
 # English Guide
 
@@ -104,6 +106,9 @@ Use AWS service:
 2. AWS S3: save input data, output data and trigger AWS Lambda
 
 3. AWS IAM Role: assign AWS Lambda to full access S3 and basic execution
+
+How to pack package:
+![pack](packpackage.png)
 
 # Reference
 - Tutorial by Node.js
