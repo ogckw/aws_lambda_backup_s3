@@ -10,8 +10,8 @@ s3 = boto3.client('s3')
 
 # resize and source folder path
 # THUMBNAIL_SIZE = (250, 250)
-SOURCE_BUCKET = 'ckmates-source-test'
-RESIZE_BUCKET = 'ckmates-resize-test'
+SOURCE_BUCKET = 'hans-source-test'
+RESIZE_BUCKET = 'hans-resize-test'
 # mobile size , tablet size, com size
 SIZE_LIST = [(320, 320), (768, 768), (1024, 1024)]
 # resize folder
