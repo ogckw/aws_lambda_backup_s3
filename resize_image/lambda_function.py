@@ -58,7 +58,7 @@ def lambda_handler(event, context):
     print(key)
     try:
         response = s3.get_object(Bucket=bucket, Key=key)
-        print(response)
+        # print(response)
         print("CONTENT TYPE: " + response['ContentType'])
         image_source = response['Body'].read()
         
@@ -73,7 +73,7 @@ def lambda_handler(event, context):
             resize_image_format = resize_image[1]
             s3_upload_key = folder_path + '/' + filename + '-resize.' + resize_image_format
             s3.put_object(Body=resize_image_file, Bucket=RESIZE_BUCKET, Key=s3_upload_key)
-            print('Put object {} to s3 bucket {}'.format(key, bucket))
+            print('Put object {} to s3 bucket {}'.format(s3_upload_key, RESIZE_BUCKET))
         return response['ContentType']
     except Exception as e:
         print(e)
